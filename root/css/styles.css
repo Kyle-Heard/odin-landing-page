@@ -1,0 +1,11 @@
+*{
+    color: purple;
+}
+
+/*
+*{ affect all elements }
+.class{ class identifier - Use for most }
+#ID{ ID used for a few specific cases including calling a section of a page in HTML }
+.class-one.class-two#id-one{ Affects what has all classes/IDs }
+.class-ancestor .class-child{ Affects final class IFF it's contained in the ancestor at some point }
+*/
