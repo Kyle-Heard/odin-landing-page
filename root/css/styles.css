@@ -94,6 +94,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .made-game {
