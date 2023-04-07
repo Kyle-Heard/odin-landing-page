@@ -20,6 +20,7 @@ a:hover {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #684D95;
     padding: 6px 40px;
 }
@@ -36,24 +37,22 @@ a:hover {
     gap: 12px;
     list-style: none;
     align-items: center;
-    height: 100%;
 }
 
 .hero-section {
 
     display: flex;
     background-color: #684D95;
-    padding: 6px 40px;
+    padding: 24px 40px;
     gap: 24px;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
+    flex: 1;
 }
 
 .hero-image {
-    height: 80%;
-    width: auto;
     border-radius: 100px;
+    flex: 1 1 450px;
 }
 
 .hero-text {
